@@ -18,6 +18,12 @@ namespace Snake
 
             p2.Draw();
 
+            HorizontalLine xline = new HorizontalLine(3, 13, 8, '+');
+            xline.Draw();
+
+            VerticalLine yline = new VerticalLine(2, 15, 6, '|');
+            yline.Draw();
+
             Console.ReadLine();
 
         }
